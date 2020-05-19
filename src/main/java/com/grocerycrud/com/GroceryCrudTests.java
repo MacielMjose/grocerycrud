@@ -166,7 +166,7 @@ public class GroceryCrudTests {
 		page.explicitWait("/html/body/div[2]/div[2]/div[3]/div/div/div[3]/button[2]");
 		page.confirmaDeletar();
 		ScreenShot.captureScreenShot(driver);
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		page.validaTextoDelecao("Your data has been successfully deleted from the database.");
 		ScreenShot.captureScreenShot(driver);
 	}

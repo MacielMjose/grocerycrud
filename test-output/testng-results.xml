@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51758" started-at="2020-05-18T18:28:20 BRT" finished-at="2020-05-18T18:29:12 BRT">
+  <suite name="Default suite" duration-ms="22385" started-at="2020-05-19T00:16:33 BRT" finished-at="2020-05-19T00:16:55 BRT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51758" started-at="2020-05-18T18:28:20 BRT" finished-at="2020-05-18T18:29:12 BRT">
+    <test name="Default test" duration-ms="22385" started-at="2020-05-19T00:16:33 BRT" finished-at="2020-05-19T00:16:55 BRT">
       <class name="com.grocerycrud.com.GroceryCrudTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="setup" is-config="true" duration-ms="26949" started-at="2020-05-18T18:27:53 BRT" finished-at="2020-05-18T18:28:20 BRT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="setup" is-config="true" duration-ms="10396" started-at="2020-05-19T00:16:23 BRT" finished-at="2020-05-19T00:16:33 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="reportSetup" is-config="true" duration-ms="116" started-at="2020-05-18T18:28:20 BRT" finished-at="2020-05-18T18:28:20 BRT">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="reportSetup" is-config="true" duration-ms="122" started-at="2020-05-19T00:16:33 BRT" finished-at="2020-05-19T00:16:33 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSetup -->
-        <test-method status="PASS" signature="deveAlterarTema()[pri:1, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveAlterarTema" duration-ms="27990" started-at="2020-05-18T18:28:20 BRT" finished-at="2020-05-18T18:28:48 BRT">
+        <test-method status="PASS" signature="deveAlterarTema()[pri:1, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveAlterarTema" duration-ms="2643" started-at="2020-05-19T00:16:33 BRT" finished-at="2020-05-19T00:16:36 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveAlterarTema -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="13" started-at="2020-05-18T18:28:48 BRT" finished-at="2020-05-18T18:28:48 BRT">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="10" started-at="2020-05-19T00:16:36 BRT" finished-at="2020-05-19T00:16:36 BRT">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="deveAbrirAddCostumer()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveAbrirAddCostumer" duration-ms="7627" started-at="2020-05-18T18:28:48 BRT" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveAlterarTema" finished-at="2020-05-18T18:28:56 BRT">
+        <test-method status="PASS" signature="deveAbrirAddCostumer()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveAbrirAddCostumer" duration-ms="1470" started-at="2020-05-19T00:16:36 BRT" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveAlterarTema" finished-at="2020-05-19T00:16:37 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveAbrirAddCostumer -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="2" started-at="2020-05-18T18:28:56 BRT" finished-at="2020-05-18T18:28:56 BRT">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="1" started-at="2020-05-19T00:16:37 BRT" finished-at="2020-05-19T00:16:37 BRT">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="deveCadastrarNome(java.lang.String, java.lang.String)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveCadastrarNome" duration-ms="544" started-at="2020-05-18T18:28:56 BRT" data-provider="Nomes" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveAbrirAddCostumer" finished-at="2020-05-18T18:28:57 BRT">
+        <test-method status="PASS" signature="deveCadastrarNome(java.lang.String, java.lang.String)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveCadastrarNome" duration-ms="527" started-at="2020-05-19T00:16:38 BRT" data-provider="Nomes" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveAbrirAddCostumer" finished-at="2020-05-19T00:16:39 BRT">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveCadastrarNome -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-18T18:28:57 BRT" finished-at="2020-05-18T18:28:57 BRT">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-19T00:16:39 BRT" finished-at="2020-05-19T00:16:39 BRT">
           <params>
             <param index="0">
               <value>
@@ -72,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="deveCadastrarContato(java.lang.String, java.lang.String)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveCadastrarContato" duration-ms="614" started-at="2020-05-18T18:28:57 BRT" data-provider="Contato" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveCadastrarNome" finished-at="2020-05-18T18:28:58 BRT">
+        <test-method status="PASS" signature="deveCadastrarContato(java.lang.String, java.lang.String)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveCadastrarContato" duration-ms="523" started-at="2020-05-19T00:16:39 BRT" data-provider="Contato" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveCadastrarNome" finished-at="2020-05-19T00:16:39 BRT">
           <params>
             <param index="0">
               <value>
@@ -88,7 +88,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveCadastrarContato -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-18T18:28:58 BRT" finished-at="2020-05-18T18:28:58 BRT">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-19T00:16:39 BRT" finished-at="2020-05-19T00:16:39 BRT">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="deveCadastrarEndereco(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveCadastrarEndereco" duration-ms="949" started-at="2020-05-18T18:28:58 BRT" data-provider="Endereco" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveCadastrarContato" finished-at="2020-05-18T18:28:59 BRT">
+        <test-method status="PASS" signature="deveCadastrarEndereco(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveCadastrarEndereco" duration-ms="974" started-at="2020-05-19T00:16:39 BRT" data-provider="Endereco" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveCadastrarContato" finished-at="2020-05-19T00:16:40 BRT">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveCadastrarEndereco -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-18T18:28:59 BRT" finished-at="2020-05-18T18:28:59 BRT">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="1" started-at="2020-05-19T00:16:40 BRT" finished-at="2020-05-19T00:16:40 BRT">
           <params>
             <param index="0">
               <value>
@@ -146,7 +146,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="deveCadastrarCreditInfo(java.lang.String, java.lang.String)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveCadastrarCreditInfo" duration-ms="827" started-at="2020-05-18T18:28:59 BRT" data-provider="Credit" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveCadastrarEndereco" finished-at="2020-05-18T18:28:59 BRT">
+        <test-method status="PASS" signature="deveCadastrarCreditInfo(java.lang.String, java.lang.String)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveCadastrarCreditInfo" duration-ms="904" started-at="2020-05-19T00:16:40 BRT" data-provider="Credit" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveCadastrarEndereco" finished-at="2020-05-19T00:16:41 BRT">
           <params>
             <param index="0">
               <value>
@@ -162,7 +162,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveCadastrarCreditInfo -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="1" started-at="2020-05-18T18:28:59 BRT" finished-at="2020-05-18T18:28:59 BRT">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-19T00:16:41 BRT" finished-at="2020-05-19T00:16:41 BRT">
           <params>
             <param index="0">
               <value>
@@ -173,7 +173,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="deveCadastrarComSucesso(java.lang.String)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveCadastrarComSucesso" duration-ms="2009" started-at="2020-05-18T18:28:59 BRT" data-provider="ExpectedText" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveCadastrarCreditInfo" finished-at="2020-05-18T18:29:01 BRT">
+        <test-method status="PASS" signature="deveCadastrarComSucesso(java.lang.String)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveCadastrarComSucesso" duration-ms="1468" started-at="2020-05-19T00:16:41 BRT" data-provider="ExpectedText" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveCadastrarCreditInfo" finished-at="2020-05-19T00:16:43 BRT">
           <params>
             <param index="0">
               <value>
@@ -184,7 +184,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveCadastrarComSucesso -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-18T18:29:01 BRT" finished-at="2020-05-18T18:29:01 BRT">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-19T00:16:43 BRT" finished-at="2020-05-19T00:16:43 BRT">
           <params>
             <param index="0">
               <value>
@@ -195,11 +195,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="deveDeletarCustomer()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveDeletarCustomer" duration-ms="9917" started-at="2020-05-18T18:29:01 BRT" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveCadastrarComSucesso" finished-at="2020-05-18T18:29:11 BRT">
+        <test-method status="PASS" signature="deveDeletarCustomer()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="deveDeletarCustomer" duration-ms="12463" started-at="2020-05-19T00:16:43 BRT" depends-on-methods="com.grocerycrud.com.GroceryCrudTests.deveCadastrarComSucesso" finished-at="2020-05-19T00:16:55 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveDeletarCustomer -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-18T18:29:11 BRT" finished-at="2020-05-18T18:29:11 BRT">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="getResult" is-config="true" duration-ms="1" started-at="2020-05-19T00:16:55 BRT" finished-at="2020-05-19T00:16:55 BRT">
           <params>
             <param index="0">
               <value>
@@ -210,11 +210,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="tearDown" is-config="true" duration-ms="292" started-at="2020-05-18T18:29:11 BRT" finished-at="2020-05-18T18:29:12 BRT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="tearDown" is-config="true" duration-ms="281" started-at="2020-05-19T00:16:55 BRT" finished-at="2020-05-19T00:16:55 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="finalizar()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="finalizar" is-config="true" duration-ms="343" started-at="2020-05-18T18:29:12 BRT" finished-at="2020-05-18T18:29:12 BRT">
+        <test-method status="PASS" signature="finalizar()[pri:0, instance:com.grocerycrud.com.GroceryCrudTests@7a187f14]" name="finalizar" is-config="true" duration-ms="208" started-at="2020-05-19T00:16:55 BRT" finished-at="2020-05-19T00:16:56 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizar -->
